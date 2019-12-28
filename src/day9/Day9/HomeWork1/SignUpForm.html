@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+</head>
+<body>
+<hr>
+   <h1>SignUpForm</h1>
+    <form action="/someUrl" method="GET">
+        <p>User Name: <br> <input type="text" name="text"/></p>
+        <p>Password : <br><input type="password" name="password" /></p>
+        <p>Password Repeat:<br><input type="password" name="password repeat" /></p>
+        <p>Address: <br> <textarea name="textarea"></textarea></p>
+        <p>
+            Sex
+            <br>
+        </p>
+        <p>
+             Male
+            <input type="radio" name="radio" value="male"/></p>
+             Female
+            <input type="radio" name="radio" value="female"/></p>
+            </p>
+            Plan <br>
+            <select name="select">
+                <option value="option 1">free</option>
+                <option value="option 2">basic</option>
+                <option value="option 3">enterprice</option>
+
+            </select>
+        </p>
+
+        <p>
+            I agree to terms and conditions <input type="checkbox" name="agreement" required>
+        </p>
+
+        <p>
+             <input type="checkbox" name="agreement">
+
+        <input type="submit" value="Submit button" id="submit"/>
+        <img src="submit.png" alt="submit image" ></form>
+    </form>
+    <meta charset="UTF-8">
+    <title>Form</title>
+<style>
+    body {
+        text-align: center;
+        }
+    h1 {
+        color: blue;
+    }
+    body{
+        background-color:white;
+    }
+    img{
+       width: 150px;
+       height:40px;
+    }
+    </style>
+    </head>
+    <!--
+        give your div some styles, like background color, width and center it in the middle of the screen
+        give your form inputs some styles, like font, margins and color of text
+    -->
+
+<!--
+   Create a form with:
+    * 1 text input called "username"
+    * 2 password inputs, called "password" and "password repeat"
+    * 1 text area called "address"
+    * 2 radio buttons with values "male" and "female" and called "sex"
+    * 1 dropdown with selections: free, basic, enterprise. Call this dropdown "plan"
+    * 1 checkbox with name "agreement" and with text "I agree to terms and conditions"
+    * 1 submit image button that uses "submit.png"
+   Put your form inside a div
+-->
+
+</body >
+</html>
