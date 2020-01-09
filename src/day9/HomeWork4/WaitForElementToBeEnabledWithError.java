@@ -1,6 +1,6 @@
-package day9.Day9.HomeWork4;
+package day9.HomeWork4;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -31,7 +31,7 @@ public class WaitForElementToBeEnabledWithError {
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
             // now copy the  screenshot to desired location using copyFile //method
-            FileUtils.copyFile(src, new File("src/day9/homework/homework4/error_screenshot.png"));
+      //      FileUtils.copyFile(src, new File("src/day9/homework/homework4/error_screenshot.png"));
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

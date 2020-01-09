@@ -1,6 +1,6 @@
-package day9.Day9.HomeWork4;
+package day9.HomeWork4;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,7 +26,7 @@ public class WaitForElementVisibilityWithError {
             System.out.println( "Failure, checkBox was not invisible in 5 seconds!" );
             File file = ((TakesScreenshot) driver).getScreenshotAs( OutputType.FILE );
             File DestFile = new File( System.getProperty( "user.dir" ) + "/src/day9/homework/homework4/visibilityFailed.png" );
-            FileUtils.copyFile( file, DestFile );
+         //   FileUtils.copyFile( file, DestFile );
         }
     }
     }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite of Tests">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter" />
+    </listeners>
+    <parameter name="number" value="50"></parameter>
+    <parameter name="number1" value="80"></parameter>
+    <parameter name="number2" value="60"></parameter>
+    <test name="Tests">
+        <classes>
+            <class name="day14.Task1SolutionTESTNG"/>
+            <class name="day14.Task2SolutionTESTNG"/>
+            <class name="day14.Task3SolutionTESTNG"/>
+            <class name="day14.Task4SolutionTESTNG"/>
+        </classes>
+    </test>
+</suite>
