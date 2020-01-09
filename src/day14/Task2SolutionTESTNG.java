@@ -23,7 +23,7 @@ public class Task2SolutionTESTNG {
 
         @BeforeClass
         public void clickwebsite() {
-            System.setProperty("webdriver.chrome.driver", "/Applications/technostudy/Selenium/ChromeDriver/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/EsraOzturk/Downloads/chromedriver" );
             driver = new ChromeDriver();
             driver.get("http://the-internet.herokuapp.com/add_remove_elements/");
             //createButtons(driver, 70);

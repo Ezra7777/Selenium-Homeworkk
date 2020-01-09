@@ -17,7 +17,7 @@ public class Task4SolutionTESTNG {
     WebDriver driver;
     @BeforeClass
     public void ClickWebsite() {
-        System.setProperty("webdriver.chrome.driver", "/Applications/technostudy/Selenium/ChromeDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/EsraOzturk/Downloads/chromedriver" );
         driver = new ChromeDriver();
         driver.get("https://www.seleniumeasy.com/test/bootstrap-alert-messages-demo.html");
     }
